@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pre_msgUser does not exist</name>
+   <tag></tag>
+   <elementGuidId>e603d36b-47d4-4a50-ab3a-ad54f87e51f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//html/body/pre</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>pre</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;{\&quot;msg\&quot;:\&quot;User does not exist\&quot;}&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>pre</value>
+      <webElementGuid>1af4ab69-2841-4818-98eb-60116f799ad9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>{&quot;msg&quot;:&quot;User does not exist&quot;}</value>
+      <webElementGuid>8549ebef-1649-4732-af06-c32e6f0e7c84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/pre[1]</value>
+      <webElementGuid>b2159a36-5d89-4ccc-ad92-bfd679ee1aca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='{&quot;msg&quot;:&quot;User does not exist&quot;}']/parent::*</value>
+      <webElementGuid>5eb88488-5a69-45a6-8351-0f973c4b128a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//pre</value>
+      <webElementGuid>b9c00485-be53-4f5c-85bc-97781810f494</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//pre[(text() = '{&quot;msg&quot;:&quot;User does not exist&quot;}' or . = '{&quot;msg&quot;:&quot;User does not exist&quot;}')]</value>
+      <webElementGuid>1c912232-273b-4dd7-a791-4bd2010d7688</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

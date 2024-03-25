@@ -17,3 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://54.254.53.26:8080/admin')
+
+WebUI.setText(findTestObject('Object Repository/Admin login pass/Page_Sign in  Sign up/input_Admin login_email'), 'new@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Admin login pass/Page_Sign in  Sign up/input_employe id_password'), 
+    'VwNu54aZGlQ=')
+
+WebUI.click(findTestObject('Object Repository/Admin login pass/Page_Sign in  Sign up/button_login'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Admin login pass/Page_Admin Dashboard  C2W/h2_Recent Orders'), 
+    'Recent Orders')
+

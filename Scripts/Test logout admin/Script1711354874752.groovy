@@ -19,20 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://54.254.53.26:8080/')
+WebUI.navigateToUrl('http://54.254.53.26:8080/dashboard')
 
-WebUI.click(findTestObject('Object Repository/test select size/Page_Homepage/a_Men'))
+WebUI.click(findTestObject('Object Repository/logout admin/logout/Page_Admin Dashboard  C2W/Sign out'))
 
-WebUI.click(findTestObject('Object Repository/test select size/Page_Homepage/a_Shoe'))
-
-WebUI.click(findTestObject('Object Repository/test select size/Page_Product view/img_Cart_card-img-top product-img'))
-
-WebUI.click(findTestObject('Object Repository/test select size/Page_Product Price/button_Add To Cart'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/test select size/Page_Product Price/select_Select size              S          _92229c'), 
-    'M', true)
-
-WebUI.click(findTestObject('Object Repository/test select size/Page_Product Price/button_Add To Cart'))
+WebUI.verifyElementText(findTestObject('Object Repository/logout admin/logout/Page_Sign in  Sign up/Admin login'), 'Admin Login')
 
 WebUI.closeBrowser()
 

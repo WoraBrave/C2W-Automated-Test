@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1" time="28.453" tests="3" failures="0" errors="0">
+   <testsuite name="Test Suite 1" tests="3" failures="0" errors="0" time="28.453" skipped="0" timestamp="25-03-2024T15:39:01" hostname="ASUS - BRAVE" id="Test Suites/Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\C2W-Automated-Test\\Reports\\20240325_153849\\Test Suite 1\\20240325_153849"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\C2W-Automated-Test\\Reports\\20240325_153849\\Test Suite 1\\20240325_153849\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - BRAVE"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="10.127.162.238"/>
+         <property name="sessionId" value="c9f47fa350108a2c227dc2e75ce9db44"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Test log in" time="10.531" classname="Test Cases/Test log in" status="PASSED">
+         <system-out><![CDATA[25-03-2024T15:39:02 - [TEST_CASE][PASSED] - Test Cases/Test log in: Test Cases/Test log in
+
+25-03-2024T15:39:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-03-2024T15:39:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-03-2024T15:39:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-03-2024T15:39:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-03-2024T15:39:07 - [TEST_STEP][PASSED] - navigateToUrl("http://54.254.53.26:8080/admin"): Navigate to 'http://54.254.53.26:8080/admin' successfully
+
+25-03-2024T15:39:08 - [MESSAGE][PASSED] - Navigate to 'http://54.254.53.26:8080/admin' successfully
+
+25-03-2024T15:39:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin login pass/Page_Sign in  Sign up/input_Admin login_email"), "new@gmail.com"): Text 'new@gmail.com' is set on object 'Object Repository/Admin login pass/Page_Sign in  Sign up/input_Admin login_email'
+
+25-03-2024T15:39:10 - [MESSAGE][PASSED] - Text 'new@gmail.com' is set on object 'Object Repository/Admin login pass/Page_Sign in  Sign up/input_Admin login_email'
+
+25-03-2024T15:39:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin login pass/Page_Sign in  Sign up/input_employe id_password"), "VwNu54aZGlQ="): Text ****** has been set on object 'Object Repository/Admin login pass/Page_Sign in  Sign up/input_employe id_password'
+
+25-03-2024T15:39:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin login pass/Page_Sign in  Sign up/input_employe id_password'
+
+25-03-2024T15:39:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin login pass/Page_Sign in  Sign up/button_login")): Object: 'Object Repository/Admin login pass/Page_Sign in  Sign up/button_login' is clicked on
+
+25-03-2024T15:39:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin login pass/Page_Sign in  Sign up/button_login' is clicked on
+
+25-03-2024T15:39:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Admin login pass/Page_Admin Dashboard  C2W/h2_Recent Orders"), "Recent Orders"): Actual text and expected text of test object 'Object Repository/Admin login pass/Page_Admin Dashboard  C2W/h2_Recent Orders' are matched.
+
+25-03-2024T15:39:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Admin login pass/Page_Admin Dashboard  C2W/h2_Recent Orders' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test logout admin" time="5.978" classname="Test Cases/Test logout admin" status="PASSED">
+         <system-out><![CDATA[25-03-2024T15:39:12 - [TEST_CASE][PASSED] - Test Cases/Test logout admin: Test Cases/Test logout admin
+
+25-03-2024T15:39:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-03-2024T15:39:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+25-03-2024T15:39:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-03-2024T15:39:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-03-2024T15:39:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-03-2024T15:39:15 - [TEST_STEP][PASSED] - navigateToUrl("http://54.254.53.26:8080/dashboard"): Navigate to 'http://54.254.53.26:8080/dashboard' successfully
+
+25-03-2024T15:39:16 - [MESSAGE][PASSED] - Navigate to 'http://54.254.53.26:8080/dashboard' successfully
+
+25-03-2024T15:39:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/logout admin/logout/Page_Admin Dashboard  C2W/Sign out")): Object: 'Object Repository/logout admin/logout/Page_Admin Dashboard  C2W/Sign out' is clicked on
+
+25-03-2024T15:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/logout admin/logout/Page_Admin Dashboard  C2W/Sign out' is clicked on
+
+25-03-2024T15:39:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/logout admin/logout/Page_Sign in  Sign up/Admin login"), "Admin Login"): Actual text and expected text of test object 'Object Repository/logout admin/logout/Page_Sign in  Sign up/Admin login' are matched.
+
+25-03-2024T15:39:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/logout admin/logout/Page_Sign in  Sign up/Admin login' are matched.
+
+25-03-2024T15:39:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-03-2024T15:39:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test signup pass" time="11.341" classname="Test Cases/test signup pass" status="PASSED">
+         <system-out><![CDATA[25-03-2024T15:39:18 - [TEST_CASE][PASSED] - Test Cases/test signup pass: Test Cases/test signup pass
+
+25-03-2024T15:39:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-03-2024T15:39:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-03-2024T15:39:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-03-2024T15:39:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-03-2024T15:39:20 - [TEST_STEP][PASSED] - navigateToUrl("http://54.254.53.26:8080/"): Navigate to 'http://54.254.53.26:8080/' successfully
+
+25-03-2024T15:39:22 - [MESSAGE][PASSED] - Navigate to 'http://54.254.53.26:8080/' successfully
+
+25-03-2024T15:39:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Homepage/Profile")): Object: 'Object Repository/Page_Homepage/Profile' is clicked on
+
+25-03-2024T15:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Homepage/Profile' is clicked on
+
+25-03-2024T15:39:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign Up/input_Login_email"), email): Text 'seglesges@gmail.com' is set on object 'Object Repository/Page_Sign Up/input_Login_email'
+
+25-03-2024T15:39:25 - [MESSAGE][PASSED] - Text 'seglesges@gmail.com' is set on object 'Object Repository/Page_Sign Up/input_Login_email'
+
+25-03-2024T15:39:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign Up/input_Email_password_1"), password): Text ****** has been set on object 'Object Repository/Page_Sign Up/input_Email_password_1'
+
+25-03-2024T15:39:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign Up/input_Email_password_1'
+
+25-03-2024T15:39:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign Up/button_Login")): Object: 'Object Repository/Page_Sign Up/button_Login' is clicked on
+
+25-03-2024T15:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign Up/button_Login' is clicked on
+
+25-03-2024T15:39:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_/html_katalonfont-familymonospacefont-size13_6a6dcb"), "{"msg":"User does not exist"}"): Actual text and expected text of test object 'Object Repository/Page_/html_katalonfont-familymonospacefont-size13_6a6dcb' are matched.
+
+25-03-2024T15:39:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_/html_katalonfont-familymonospacefont-size13_6a6dcb' are matched.
+
+25-03-2024T15:39:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-03-2024T15:39:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+25-03-2024T15:39:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-03-2024T15:39:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-03-2024T15:39:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-03-2024T15:39:29 - [TEST_STEP][PASSED] - navigateToUrl("http://54.254.53.26:8080/admin"): Navigate to 'http://54.254.53.26:8080/admin' successfully
+
+25-03-2024T15:39:29 - [MESSAGE][PASSED] - Navigate to 'http://54.254.53.26:8080/admin' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-03-2024T15:39:01 - [TEST_SUITE][PASSED] - Test Suite 1: Test Cases/test signup pass]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
